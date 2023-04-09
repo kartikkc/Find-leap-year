@@ -1,0 +1,34 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    padding-top: 10%;
+}
+
+/* Title section */
+
+#title,
+.main-title {
+    font-family: monospace;
+    font-size: 2rem;
+    color: rgb(58, 8, 8);
+    text-align: center;
+}
+
+.main-title,
+#navbarContent{
+    padding: 0% 12%;
+}
+
+.side-img {
+    width: 50%;
+    border-radius: 55px;
+}
+
+/* Input section */
+
+#input {
+    /* text-align: center; */
+    padding: 3% 30%;
+}

@@ -4,7 +4,7 @@
 <head>
     <!-- Fonts -->
 
-    
+
 
     <!-- Fonts end -->
 
@@ -26,10 +26,16 @@
 
     <!-- Custom Style sheet -->
 
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 
     <!-- Custom Style sheet end -->
 
+
+    <!-- Custom js -->
+    
+    <script src="./javascript/script.js"></script>
+
+    <!-- Custom js ends -->
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -38,7 +44,83 @@
 </head>
 
 <body>
+    <!-- title section -->
+    <section id="title">
+        <div class="title">
+            <!-- Navbar  Starts-->
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <a href="#" class="main-title navbar-brand">Leap-Year</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarContent">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" target="_blank"
+                                    href="https://kartikkc.github.io/Fun_project/index.html">Love-Calc</a>
+                            </li>
+                            <li class="nav-item">
+                                <a target="_blank" class="nav-link"
+                                    href="https://kartikkc.github.io/ViteF1_New/index.html">ViteF1</a>
+                            </li>
+                        </ul>
 
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Navebar Ends -->
+
+            <!-- Main Div -->
+
+            <div class="row my-5">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                    <h1 class="my-5"> Check for leap year! </h1>
+                </div>
+                <div class="col-lg-6 col-md-12 col-md-12">
+                    <img src="./images/leapyear.png" alt="image" class="side-img">
+                </div>
+            </div>
+            <!-- Main Div Ends -->
+        </div>
+    </section>
+
+    <!-- title section ends -->
+
+    <!-- Main content section -->
+
+    <!-- Result section -->
+    <section id="results">
+        <div class="leap-year">
+
+        </div>
+    </section>
+
+    <!-- End of result section -->
+
+    <!-- input section -->
+
+    <section id="input">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="input-space input-group input-group-lg">
+                    <span class="input-group-text" id="inputGroup-sizing-lg">Year</span>
+                    <input type="number" min="0001" max="9999"class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-lg" placeholder="2002" id="year">
+                </div>
+            </div>
+            <div class="custom-btn col-lg-6 col-md-12 col-sm-12">
+                <button type="button" onclick="calculate();" class="btn btn-lg btn-outline-dark">Calculate</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Input section ends -->
+
+
+    <!-- Main Content Section Ends -->
 </body>
 
 </html>
